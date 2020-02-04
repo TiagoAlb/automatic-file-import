@@ -75,7 +75,7 @@ public class ActionReport {
             if(!file.isDirectory())
                 file.mkdirs();
 
-            directoty = directoty + reportComplete.getReportName() + ".dat";
+            directoty = directoty + reportComplete.getReportName() + ".done.dat";
             file = new File(directoty);
             
             Utils util = new Utils();
